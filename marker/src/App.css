@@ -1,0 +1,125 @@
+body {
+  background-color: #0a0f14;
+  color: #d1f7ff;
+  font-family: "segoe UI", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid rgba(0, 255, 255, 0.2 );
+  padding: 20px;
+  margin: 20px auto;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+input {
+  background: transparent;
+  border: 1px solid #cad2d3;
+  color: #d1f7ff;
+  padding: 10px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #5c7c89;
+}
+
+button {
+background: transparent;
+border: 1px solid #00f0ff;
+color: #00f0ff;
+padding: 10px 15px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+button:hover {
+  background: #93dadf;
+  color: #0a0f14;
+  box-shadow: 0 0 10px #93e0e5, 0 0 20px #74dfe7;
+}
+
+.pass {
+  color: green;
+  font-weight: bold;
+}
+
+.fail {
+  color: red;
+  font-weight: bold;
+}
+
+.headline {
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 2px;
+  color: #7df9ff;
+  text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th {
+  color: #5c7c89;
+  font-weight: normal;
+  padding: 10px;
+  border-bottom: 1px solid #00f0ff;
+}
+
+td {
+  padding: 15px;
+  border-bottom: 1px solid #00f0ff;
+}
+
+.nameBlock {
+  width: 50%;
+}
+
+.scoreBlock {
+  width: 25%;
+}
+
+.statusBlock {
+  width: 25%;
+}
+
+.pass {
+  color: #00ff00;
+  font-weight: bold;
+  border: 1px solid #00ff00;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.fail {
+  color: #ff0000;
+  font-weight: bold;
+  border: 1px solid #ff0000;
+  padding: 5px 10px;
+  display: inline-block;
+}
